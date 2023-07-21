@@ -1,0 +1,123 @@
+.img-logo img {
+  width: 250px;
+  height: 250px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-primary);
+}
+
+header {
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20200313/pngtree-memo-style-desktop-pencil-background-image_331610.jpg");
+  background-size: 1800px;
+  background-repeat: no-repeat;
+}
+
+.navbar a{
+  color:#FC7300;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: var(--color-primary-dark);
+}
+
+h1 {
+  width: 100%;
+  height: 100%;
+  font-family:'Belanosima', sans-serif;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 100px;
+}
+
+
+
+.general {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+}
+
+
+img {
+    width: 100%;
+}
+
+.div2 h2 {
+  text-align: center;
+   font-size: 85px;
+   font-family: 'Poppins', sans-serif;
+ }
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Poppins:ital,wght@0,100;0,200;0,800;0,900;1,100;1,200&display=swap');
+.div2 p {
+  font-family: 'Belanosima', sans-serif;
+  text-decoration: none;
+  color:#181823;
+}
+
+.elegirnos h2 {
+  text-align: center;
+   font-size: 85px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.elegirnos p {
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+  text-decoration: none;
+  color:#181823;
+}
+
+.burbuja {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+.div3 p {
+  text-align: center;
+}
+
+.div4 p {
+  text-align: center;
+}
+
+.div5 p {
+  text-align: center;
+}
+
+.div6 p {
+  text-align: center;
+}
+
+.div7 p {
+  text-align: center;
+}
+
+#miBoton {
+  padding: 10px 20px;
+  background-color: #FC7300;
+  color:#EFF5F5;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+  
+
+
+  
+  
+

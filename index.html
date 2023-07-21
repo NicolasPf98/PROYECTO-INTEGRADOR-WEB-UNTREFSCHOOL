@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Poppins:wght@800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Poppins:ital,wght@0,800;0,900;1,200&display=swap" rel="stylesheet">
+    <title>Trabajo Integrador Primera Parte</title>
+  </head>
+  <header> 
+    <section class="img-logo">
+      <img src="logo.png" alt="Logo"> 
+      <h1> UNTREF SCHOOL </h1>
+      <nav class="navbar">
+        <a href="#">Quienes somos</a>
+        <a href="#">¿Por qué elegirnos?</a>
+        <a href="#">Propuesta educativa</a>
+        <a href="#">Últimas noticias</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </section> 
+   </header>
+  <body>
+    <main> 
+      <div class="general">
+        <div class="div1">
+          <img src="colegio.jpg" alt="colegio">
+        </div>
+        <div class="div2">
+          <h2> Bienvenidos a...</h2>
+          <p>  El colegio Betania fue fundado en 1950 a partir de la iniciativa de la parroquia Santa María de Betania. Se trata de una escuela en la que el conocimiento y la atención personalizada de cada alumno constituye un claro distintivo del ideario que inspira su proyecto educativo, en el que el objetivo es lograr la formación integral de las personas, es decir el desarrollo y la integración armónica de sus posibilidades en las dimensiones espiritual, intelectual, humana y social siendo su lema el Integer Homo.</p>
+        </div>
+      </div>
+    <section class="elegirnos"> 
+      <h2>Nuestra propuesta</h2>
+      <p> Somos una comunidad educativa de excelencia, enfocada a la formación integral, donde se experimenta la alegría de encontrarse con Jesucristo y de sus apóstoles </p>
+      <h2> Atributos </h2>
+      <div class="burbuja">
+        <div class="div3"> 
+        <img src="catolico.png" alt="catologico"> 
+        <p> Colegio Católico</p>
+        </div>
+        <div class="div4">
+          <img src="integral.png" alt="integral"> 
+          <p> Formación Integral</p>
+        </div>
+        <div class="div5">
+          <img src="acompañamiento.png" alt="acompañamiento"> 
+          <p> Acompañamiento centrado en la persona</p>
+        </div>
+        <div class="div6">
+          <img src="servicio.png" alt="servicio"> 
+          <p> Apóstoles al servicio de los demás</p>
+        </div>
+        <div class="div7">
+          <img src="comunidad.png" alt="comunidad"> 
+          <p> Comunidad educativa</p>
+        </div>
+      </div>
+    </section>
+    <section> 
+      <h2> Propuesta Educativa Nivel Primario </h2>
+      <p>El Proyecto Educativo Pastoral, iluminado por el Evangelio, incluye lo establecido por el Diseño Curricular.</p>
+      <p>Brindamos una información integral, basada en el respeto por la vida, el trabajo responsable, autónomo y solidario, atendiendo a la diversidad y promoviendo la inclusión de los niños con capacidades educativas especiales.</p>
+      <p>Acompañamos a los alumnos en el despliegue de sus potenciales, incentivando en ellos la búsqueda del bien y la verdad, caracterizando este acompañamiento con la calidez que da la educación personalizada.</p>
+      <p>Contribuimos a la formación de mejores personas para que logren tener una mirada activa y crítica, con aptitudes para continuar realizando nuevos aprendizajes durante su vida y competentes en el uso de herramientas indispensables para integrarse a esta sociedad, que hoy se presenta compleja.</p>
+      <p>Contamos con un equipo de trabajo que con gran profesionalidad, responsabilidad, compromiso y creatividad que lleva adelante este Proyecto</p>
+    </section>
+    <section class="botones">
+      <button id="miBoton" onclick="mostrarObjetivos()">Objetivos</button>
+       <ul id="miObjetivos">
+          <li>Que los alumnos logren la adquisición y el dominio instrumental de los saberes considerados socialmente significativos</li>
+          <li>Que incorporen el trabajo como metodología pedagógica, en tanto síntesis entre teoría y práctica, que fomenta la reflexión sobre la realidad, estimula el juicio crítico y es medio de organización y promoción comunitaria-</li>
+          <li>Que los alumnos conozcan y valoren críticamente nuestra tradición y patrimonio cultural, para poder optar por aquellos elementos que mejor favorezcan el desarrolo integral de la persona</li>
+        </ul>
+        <script>
+          function mostrarObjetivos() {
+            var lista = document.getElementById("miObjetivos");
+            if (lista.style.display === "none") {
+              lista.style.display = "block";
+            } else {
+              lista.style.display = "none";
+            }
+          }
+        </script>
+      <button id="miBoton" onclick="mostrarActividades()">Actividades</button>
+        <ul id="miActividades">
+           <li>MÚSICA</li>
+           <li>EDUCACIÓN FÍSICA</li>
+           <li>CATEQUESIS</li>
+           <li>INGLÉS</li>
+           <li>INFORMÁTICA Y PENSAMIENTO COMPUTACIONAL</li>
+           <li>TECNOLOGÍA</li>
+           <li>PLÁSTICA</li>
+           <li>RECREACIÓN</li>
+           <li>TALLER DE EDUCACIÓN EMOCIONAL</li>
+         </ul>
+         <script>
+          function mostrarActividades() {
+            var lista = document.getElementById("miActividades");
+            if (lista.style.display === "none") {
+              lista.style.display = "block";
+            } else {
+              lista.style.display = "none";
+            }
+          }
+        </script>
+     <button id="miBoton" onclick="mostrarProyectos()">Proyectos</button>
+         <ul id="miProyectos">
+            <li>Inglés: con posibilidad de acreditar conocimientos en EXALEVI.</li>
+            <li>Convivencias.</li>
+            <li>Retiros espirituales</li>
+            <li>Campamentos y pernoctadas.</li>
+            <li>Trabajo en Jornadas ESI.</li>
+            <li>Viaje de egresados 7°grado.</li>
+          </ul> 
+          <script>
+            function mostrarProyectos() {
+              var lista = document.getElementById("miProyectos");
+              if (lista.style.display === "none") {
+                lista.style.display = "block";
+              } else {
+                lista.style.display = "none";
+              }
+            }
+          </script>
+      <button id="miBoton" onclick="mostrarHorarios()">Horarios</button>
+         <ul id="miHorarios">
+            <li>El horario de ingreso es de 7:40 a 7:55 hs por la puerta de Av.Medrano.</li>
+            <li>El alumno que llegue entre las 7:55hs y las 8:05hs, podrá ingresar  (por la puerta de Fco. Acuña de Figueroa 855) y se notificará a los padres de la llegada tarde.</li>
+            <li>Pasado este tiempo, los alumnos no podrán ingresar al establecimiento a excepción de que hayan avisado con anterioridad el motivo de la demora.</li>
+            <li>La jornada escolar finaliza a las 16:10hs</li>
+            <script>
+              function mostrarHorarios() {
+                var lista = document.getElementById("miHorarios");
+                if (lista.style.display === "none") {
+                  lista.style.display = "block";
+                } else {
+                  lista.style.display = "none";
+                }
+              }
+            </script>
+    </section>
+    <h2> Últimas Noticias</h2>
+    <section class="post-list">
+      <div class="content"> 
+        <article class="post">
+          <div class="post-header">
+            <div class="post-img-1"></div>
+          </div>
+          <div class="post-body">
+            <span> 21 de Julio de 2023 | Diseño Web</span>
+            <h2> 5° Año 2023 - Voluntariado Akamasoa Argentina</h2>
+            <p> Volvimos a Akamasoa. Volvimos para sumarnos de la mejor manera que podemos a poner nuestro conocimiento y corazón al servicio...</p>
+          </div>
+        <article class="post">
+          <div class="post-header">
+            <div class="post-img-2"></div>
+           </div>
+           <div class="post-body">
+              <span> 22 de Julio de 2023 | Desarrollo Web</span>
+              <h2>Acap 2023 </h2>
+              <p> Este año, nuevamente se asume el desafío de la ACAP (Actividades de aproximación al mundo del trabajo)...</p>
+            </div>
+          </article>
+        <article class="post">
+          <div class="post-header">
+            <div class="post-img-3"></div>
+             </div>
+             <div class="post-body">
+                <span> 23 de Julio de 2023 | Desarrollo Web</span>
+                <h2>Lema 2023:"Seamos Sal y Luz, testimonio de la Paz"</h2>
+                <p> Ustedes son la sal de la tierra. Pero si la sal se vuelve insípida,¿cómo recobrará su sabor? (Mt5,13)</p>
+              </div>
+          </article>
+        
+      </div>
+    </section>
+
+    </main>
+  </body>
+</html>
