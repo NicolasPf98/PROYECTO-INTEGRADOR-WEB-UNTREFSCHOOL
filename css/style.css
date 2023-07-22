@@ -111,7 +111,115 @@ img {
   cursor: pointer;
 }
 
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: sans-serif;
+}
+
+.post-list {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.post-img-1 {
+  background: url(https://www.colegiobetania.edu.ar/wp-content/uploads/2023/05/AKA-23-5-bis.png);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: .2s;
+}
+
+.post-img-2 {
+  background: url(https://www.colegiobetania.edu.ar/wp-content/uploads/2023/05/ACAP-2023.png);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: .2s;
+}
+
+.post-img-3 {
+  background: url(https://www.colegiobetania.edu.ar/wp-content/uploads/2023/05/luz-y-sal.png);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: .2s;
+}
+
+.post {
+  box-shadow: 0 1px 6px 1px #181823 (0,0,0, .1);
+  transition: .2s;
+}
+
+.post.hover {
+  transform: translateY(-4PX);
+  box-shadow: 0 1px 6px 1px #181823 (0,0,0, .15);
+}
+
+.post.header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pie-pagina {
+  width: 100%;
+  background-color: #00425A;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200pxS;
+  margin:auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color:#EFF5F5;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box a {
+  color:#EFF5F5;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-2  h2{
+  color:#EFF5F5;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
 
 
 
