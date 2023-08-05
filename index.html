@@ -8,35 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Poppins:wght@800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Poppins:ital,wght@0,800;0,900;1,200&display=swap" rel="stylesheet">
-    <title>Trabajo Integrador Primera Parte</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    <title></title>
   </head>
   <header> 
     <section class="img-logo">
       <img src="logo.png" alt="Logo"> 
       <h1> UNTREF SCHOOL </h1>
       <nav class="navbar">
-        <a href="#">Quienes somos</a>
-        <a href="#">¿Por qué elegirnos?</a>
-        <a href="#">Propuesta educativa</a>
-        <a href="#">Últimas noticias</a>
-        <a href="#">Contacto</a>
+        <a href="#div1">Quienes somos</a>
+        <a href="#nosotros">¿Por qué elegirnos?</a>
+        <a href="#propuesta">Propuesta educativa</a>
+        <a href="#noticias">Últimas noticias</a>
+        <a href="form.html" target="_blank">Contacto</a>
       </nav>
     </section> 
    </header>
   <body>
     <main> 
       <div class="general">
-        <div class="div1">
+        <div id="div1" class="div1">
           <img src="colegio.jpg" alt="colegio">
         </div>
         <div class="div2">
           <h2> Bienvenidos a...</h2>
-          <p>  El colegio Ultref School fue fundado en 1950 a partir de la iniciativa de la parroquia Santa María de Betania. Se trata de una escuela en la que el conocimiento y la atención personalizada de cada alumno constituye un claro distintivo del ideario que inspira su proyecto educativo, en el que el objetivo es lograr la formación integral de las personas, es decir el desarrollo y la integración armónica de sus posibilidades en las dimensiones espiritual, intelectual, humana y social siendo su lema el Integer Homo.</p>
+          <p> El colegio Ultref School fue fundado en 1950 a partir de la iniciativa de la parroquia Santa María de Betania. Se trata de una escuela en la que el conocimiento y la atención personalizada de cada alumno constituye un claro distintivo del ideario que inspira su proyecto educativo, en el que el objetivo es lograr la formación integral de las personas, es decir el desarrollo y la integración armónica de sus posibilidades en las dimensiones espiritual, intelectual, humana y social siendo su lema el Integer Homo.</p>
         </div>
       </div>
-    <section class="elegirnos"> 
-      <h2>Nuestra propuesta</h2>
-      <p> Somos una comunidad educativa de excelencia, enfocada a la formación integral, donde se experimenta la alegría de encontrarse con Jesucristo y de sus apóstoles </p>
+    <section id="nosotros" class="elegirnos"> 
+      <h2>Nuestra misión</h2>
+      <p> Somos una comunidad educativa de excelencia, enfocada a la formación integral, donde se experimenta la alegría de encontrarse con Jesucristo y de sus apóstoles. </p>
+      <p>ASPIRAMOS A SER una comunidad educativa inspirada en los valores del Evalengio y de la espiritualidad ignaciana que trabaja para formas personas conscientes, competentes, y solidarias.</p>
+      <p>CONTAMOS con un grupo humano calificado profesionalmente y comprometido personalmente con una propuesta sólida e innovadora, con trayectoria y apertura y con los recursos y medios necesarios y actualizados para los fines propuestos.</p>
       <h2> Atributos </h2>
       <div class="burbuja">
         <div class="div3"> 
@@ -61,136 +64,83 @@
         </div>
       </div>
     </section>
-    <section> 
-      <h2> Propuesta Educativa Nivel Primario </h2>
+    <section class="propuesta"> 
+      <h2 id="propuesta"> PROPUESTA EDUCATIVA NIVEL PRIMARIO </h2>
       <p>El Proyecto Educativo Pastoral, iluminado por el Evangelio, incluye lo establecido por el Diseño Curricular.</p>
       <p>Brindamos una información integral, basada en el respeto por la vida, el trabajo responsable, autónomo y solidario, atendiendo a la diversidad y promoviendo la inclusión de los niños con capacidades educativas especiales.</p>
       <p>Acompañamos a los alumnos en el despliegue de sus potenciales, incentivando en ellos la búsqueda del bien y la verdad, caracterizando este acompañamiento con la calidez que da la educación personalizada.</p>
       <p>Contribuimos a la formación de mejores personas para que logren tener una mirada activa y crítica, con aptitudes para continuar realizando nuevos aprendizajes durante su vida y competentes en el uso de herramientas indispensables para integrarse a esta sociedad, que hoy se presenta compleja.</p>
-      <p>Contamos con un equipo de trabajo que con gran profesionalidad, responsabilidad, compromiso y creatividad que lleva adelante este Proyecto</p>
+      <p>Contamos con un equipo de trabajo que con gran profesionalidad, responsabilidad, compromiso y creatividad que lleva adelante este Proyecto.</p>
     </section>
-    <section class="botones">
-      <button id="miBoton" onclick="mostrarObjetivos()">Objetivos</button>
-       <ul id="miObjetivos">
-          <li>Que los alumnos logren la adquisición y el dominio instrumental de los saberes considerados socialmente significativos</li>
-          <li>Que incorporen el trabajo como metodología pedagógica, en tanto síntesis entre teoría y práctica, que fomenta la reflexión sobre la realidad, estimula el juicio crítico y es medio de organización y promoción comunitaria-</li>
-          <li>Que los alumnos conozcan y valoren críticamente nuestra tradición y patrimonio cultural, para poder optar por aquellos elementos que mejor favorezcan el desarrolo integral de la persona</li>
-        </ul>
-        <script>
-          function mostrarObjetivos() {
-            var lista = document.getElementById("miObjetivos");
-            if (lista.style.display === "none") {
-              lista.style.display = "block";
-            } else {
-              lista.style.display = "none";
-            }
-          }
-        </script>
-      <button id="miBoton" onclick="mostrarActividades()">Actividades</button>
-        <ul id="miActividades">
-           <li>MÚSICA</li>
-           <li>EDUCACIÓN FÍSICA</li>
-           <li>CATEQUESIS</li>
-           <li>INGLÉS</li>
-           <li>INFORMÁTICA Y PENSAMIENTO COMPUTACIONAL</li>
-           <li>TECNOLOGÍA</li>
-           <li>PLÁSTICA</li>
-           <li>RECREACIÓN</li>
-           <li>TALLER DE EDUCACIÓN EMOCIONAL</li>
-         </ul>
-         <script>
-          function mostrarActividades() {
-            var lista = document.getElementById("miActividades");
-            if (lista.style.display === "none") {
-              lista.style.display = "block";
-            } else {
-              lista.style.display = "none";
-            }
-          }
-        </script>
-     <button id="miBoton" onclick="mostrarProyectos()">Proyectos</button>
-         <ul id="miProyectos">
-            <li>Inglés: con posibilidad de acreditar conocimientos en EXALEVI.</li>
-            <li>Convivencias.</li>
-            <li>Retiros espirituales</li>
-            <li>Campamentos y pernoctadas.</li>
-            <li>Trabajo en Jornadas ESI.</li>
-            <li>Viaje de egresados 7°grado.</li>
-          </ul> 
-          <script>
-            function mostrarProyectos() {
-              var lista = document.getElementById("miProyectos");
-              if (lista.style.display === "none") {
-                lista.style.display = "block";
-              } else {
-                lista.style.display = "none";
-              }
-            }
-          </script>
-      <button id="miBoton" onclick="mostrarHorarios()">Horarios</button>
-         <ul id="miHorarios">
-            <li>El horario de ingreso es de 7:40 a 7:55 hs por la puerta de Av.Medrano.</li>
-            <li>El alumno que llegue entre las 7:55hs y las 8:05hs, podrá ingresar  (por la puerta de Fco. Acuña de Figueroa 855) y se notificará a los padres de la llegada tarde.</li>
-            <li>Pasado este tiempo, los alumnos no podrán ingresar al establecimiento a excepción de que hayan avisado con anterioridad el motivo de la demora.</li>
-            <li>La jornada escolar finaliza a las 16:10hs</li>
-            <script>
-              function mostrarHorarios() {
-                var lista = document.getElementById("miHorarios");
-                if (lista.style.display === "none") {
-                  lista.style.display = "block";
-                } else {
-                  lista.style.display = "none";
-                }
-              }
-            </script>
     </section>
-    <h2> Últimas Noticias</h2>
-    <section class="post-list">
-      <div class="content"> 
-        <article class="post">
-          <div class="post-header">
-            <div class="post-img-1"></div>
-          </div>
-          <div class="post-body">
-            <span> 21 de Julio de 2023 | Diseño Web</span>
-            <h2> 5° Año 2023 - Voluntariado Akamasoa Argentina</h2>
-            <p> Volvimos a Akamasoa. Volvimos para sumarnos de la mejor manera que podemos a poner nuestro conocimiento y corazón al servicio...</p>
-          </div>
-        <article class="post">
-          <div class="post-header">
-            <div class="post-img-2"></div>
-           </div>
-           <div class="post-body">
-              <span> 22 de Julio de 2023 | Desarrollo Web</span>
-              <h2>Acap 2023 </h2>
-              <p> Este año, nuevamente se asume el desafío de la ACAP (Actividades de aproximación al mundo del trabajo)...</p>
+    <div id="noticias" class="blog-section">
+      <div class="section-content blog">
+        <div class="title">
+          <h2>Últimas Noticias</h2>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="image-section">
+              <img src="akamasoa.png">
             </div>
-          </article>
-        <article class="post">
-          <div class="post-header">
-            <div class="post-img-3"></div>
-             </div>
-             <div class="post-body">
-                <span> 23 de Julio de 2023 | Desarrollo Web</span>
-                <h2>Lema 2023:"Seamos Sal y Luz, testimonio de la Paz"</h2>
-                <p> Ustedes son la sal de la tierra. Pero si la sal se vuelve insípida,¿cómo recobrará su sabor? (Mt5,13)</p>
-              </div>
-          </article>
+            <div class="article">
+              <h4>5°Año 2023- Voluntariado Akamasoa Argentina</h4>
+              <p>Volvimos a Akamasoa.Volvimos para sumarnos de la mejor manera que podemos a poner nuestro conocimiento y corazón al servicio...</p>
+            </div>
+            <div class="blog-view">
+              <a href="" class="botton">Leer más</a>
+            </div>
+            <div class="posted-date">
+              <p>15 de Enero de 2021</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-section">
+              <img src="acto-aniversario.webp">
+            </div>
+            <div class="article">
+              <h4>Acto 155° Aniversario del Colegio</h4>
+              <p>Hoy celebramos, con memoria agradecida, los 155 años de la apertura del Colegio UNTREF</p>
+            </div>
+            <div class="blog-view">
+              <a href="" class="botton">Leer más</a>
+            </div>
+            <div class="posted-date">
+              <p>20 de Abril 2021</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image-section">
+              <img src="luzysal.png">
+            </div>
+            <div class="article">
+              <h4>Lema 2023:"Seamos Sal y Luz, testimonio de la Paz"</h4>
+              <p>Ustedes son la sal de la tieraa. Pero si la sal se vuelve insípirda, ¿cómo recobrará su sabor?"</p>
+            </div>
+            <div class="blog-view">
+              <a href="" class="botton">Leer más</a>
+            </div>
+            <div class="posted-date">
+              <p>9 de Agosto 2021</p>
+            </div>
+          </div>  
+        </div>
       </div>
-    </section>
+    </div>
     </main>
   <footer class="pie-pagina"> 
     <div class="grupo-1">
-      <div class="box">
-        <h2> Redes Sociales</h2>
-          <a href="https://www.facebook.com/untref"> Facebook</a>
-          <a href="https://www.instagram.com/untref/"> Instagram</a>
+      <div class="red-social">
+        <h2> SIGUENOS </h2>
+          <a href="https://www.facebook.com/untref/"> <i class="fa-brands fa-facebook"></i> </a>
+          <a href="https://www.instagram.com/untref/"> <i class="fa-brands fa-instagram"></i> </a>
+          <a href="https://twitter.com/untref"> <i class="fa-brands fa-twitter"></i> </a>
       </div>
       <div class="box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.49317088973!2d-58.4222149!3d-34.6010437!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6370199221%3A0xbcece7a374526fcc!2sColegio%20Betania!5e0!3m2!1ses!2sar!4v1689991102665!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.270152879965!2d-58.3796906!3d-34.5973296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac9d19a2d47%3A0x84c991d544d837da!2sSuipacha%20925%2C%20C1008%20AAS%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1690318177633!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="box">
-        <h2> Contactos</h2>
+        <h2> CONTACTO</h2>
         <p> Tel: +54 11 4863 0705</p>
         <p> Email: colegioultrefschool.adm@gmail.com</p>
     </div>
