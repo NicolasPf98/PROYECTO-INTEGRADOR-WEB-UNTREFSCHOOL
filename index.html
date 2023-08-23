@@ -11,55 +11,56 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     <title></title>
   </head>
-  <header> 
-    <section class="img-logo">
-      <img src="logo.png" alt="Logo"> 
-      <h1> UNTREF SCHOOL </h1>
-      <nav class="navbar">
-        <a href="#div1">Quienes somos</a>
-        <a href="#nosotros">¿Por qué elegirnos?</a>
-        <a href="#propuesta">Propuesta educativa</a>
-        <a href="#noticias">Últimas noticias</a>
-        <a href="form.html" target="_blank">Contacto</a>
-      </nav>
-    </section> 
-   </header>
   <body>
+    <header class="header"> 
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="#div1">Quienes somos</a></li>
+            <li><a href="#nosotros">Por qué elegirnos</a></li>
+            <li><a href="#propuesta"> Propuesta educativa</a></li>
+            <li><a href="#noticias"> Últimas noticias</a></li>
+            <li><a href="#form.html" target="_blank"> Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+   </header>
     <main> 
-      <div class="general">
-        <div id="div1" class="div1">
-          <img src="colegio.jpg" alt="colegio">
-        </div>
-        <div class="div2">
-          <h2> Bienvenidos a...</h2>
-          <p> El colegio Ultref School fue fundado en 1950 a partir de la iniciativa de la parroquia Santa María de Betania. Se trata de una escuela en la que el conocimiento y la atención personalizada de cada alumno constituye un claro distintivo del ideario que inspira su proyecto educativo, en el que el objetivo es lograr la formación integral de las personas, es decir el desarrollo y la integración armónica de sus posibilidades en las dimensiones espiritual, intelectual, humana y social siendo su lema el Integer Homo.</p>
-        </div>
+      <div class="titulo"> 
+        <h1>Untref School</h1>
       </div>
+      <section class="quienes-somos" id="id-quienes-somos">
+        <h2> Quienes somos</h2>
+        <div class="info-quienes-somos">
+          <img src="./img/colegio.jpg" alt="">
+          <p> El colegio Ultref School fue fundado en 1950 a partir de la iniciativa de la parroquia Santa María de Betania. Se trata de una escuela en la que el conocimiento y la atención personalizada de cada alumno constituye un claro distintivo del ideario que inspira su proyecto educativo, en el que el objetivo es lograr la formación integral de las personas, es decir el desarrollo y la integración armónica de sus posibilidades en las dimensiones espiritual, intelectual, humana y social siendo su lema el Integer Homo</p>
+        </div>
+      </section>
     <section id="nosotros" class="elegirnos"> 
       <h2>Nuestra misión</h2>
-      <p> Somos una comunidad educativa de excelencia, enfocada a la formación integral, donde se experimenta la alegría de encontrarse con Jesucristo y de sus apóstoles. </p>
-      <p>ASPIRAMOS A SER una comunidad educativa inspirada en los valores del Evalengio y de la espiritualidad ignaciana que trabaja para formas personas conscientes, competentes, y solidarias.</p>
-      <p>CONTAMOS con un grupo humano calificado profesionalmente y comprometido personalmente con una propuesta sólida e innovadora, con trayectoria y apertura y con los recursos y medios necesarios y actualizados para los fines propuestos.</p>
+        <p> Somos una comunidad educativa de excelencia, enfocada a la formación integral, donde se experimenta la alegría de encontrarse con Jesucristo y de sus apóstoles. </p>
+        <p>ASPIRAMOS A SER una comunidad educativa inspirada en los valores del Evalengio y de la espiritualidad ignaciana que trabaja para formas personas conscientes, competentes, y solidarias.</p>
+        <p>CONTAMOS con un grupo humano calificado profesionalmente y comprometido personalmente con una propuesta sólida e innovadora, con trayectoria y apertura y con los recursos y medios necesarios y actualizados para los fines propuestos.</p>
       <h2> Atributos </h2>
       <div class="burbuja">
         <div class="div3"> 
-        <img src="catolico.png" alt="catologico"> 
+        <img src="./img/catolico.png" alt="catolico"> 
         <p> Colegio Católico</p>
         </div>
         <div class="div4">
-          <img src="integral.png" alt="integral"> 
+          <img src="./img/integral.png" alt="integral"> 
           <p> Formación Integral</p>
         </div>
         <div class="div5">
-          <img src="acompañamiento.png" alt="acompañamiento"> 
+          <img src="./img/acompañamiento.png" alt="acompañamiento"> 
           <p> Acompañamiento centrado en la persona</p>
         </div>
         <div class="div6">
-          <img src="servicio.png" alt="servicio"> 
+          <img src="./img/servicio.png" alt="servicio"> 
           <p> Apóstoles al servicio de los demás</p>
         </div>
         <div class="div7">
-          <img src="comunidad.png" alt="comunidad"> 
+          <img src="./img/comunidad.png" alt="comunidad"> 
           <p> Comunidad educativa</p>
         </div>
       </div>
@@ -81,7 +82,7 @@
         <div class="cards">
           <div class="card">
             <div class="image-section">
-              <img src="akamasoa.png">
+              <img src="./img/akamasoa.png">
             </div>
             <div class="article">
               <h4>5°Año 2023- Voluntariado Akamasoa Argentina</h4>
@@ -96,7 +97,7 @@
           </div>
           <div class="card">
             <div class="image-section">
-              <img src="acto-aniversario.webp">
+              <img src="./img/acto-aniversario.webp">
             </div>
             <div class="article">
               <h4>Acto 155° Aniversario del Colegio</h4>
@@ -111,7 +112,7 @@
           </div>
           <div class="card">
             <div class="image-section">
-              <img src="luzysal.png">
+              <img src="./img/luzysal.png">
             </div>
             <div class="article">
               <h4>Lema 2023:"Seamos Sal y Luz, testimonio de la Paz"</h4>
@@ -128,23 +129,40 @@
       </div>
     </div>
     </main>
-  <footer class="pie-pagina"> 
-    <div class="grupo-1">
-      <div class="red-social">
-        <h2> SIGUENOS </h2>
-          <a href="https://www.facebook.com/untref/"> <i class="fa-brands fa-facebook"></i> </a>
-          <a href="https://www.instagram.com/untref/"> <i class="fa-brands fa-instagram"></i> </a>
-          <a href="https://twitter.com/untref"> <i class="fa-brands fa-twitter"></i> </a>
+  <footer> 
+    <div class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="https://www.facebook.com/untref/"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="https://www.instagram.com/untref/"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://twitter.com/untref"> <i class="fa-brands fa-twitter"></i> </a>
+          </div>
+        </div>
+        <div class="box">
+          <h2>INSTITUTO</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.270152879965!2d-58.3796906!3d-34.5973296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac9d19a2d47%3A0x84c991d544d837da!2sSuipacha%20925%2C%20C1008%20AAS%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1690318177633!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="box">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.270152879965!2d-58.3796906!3d-34.5973296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac9d19a2d47%3A0x84c991d544d837da!2sSuipacha%20925%2C%20C1008%20AAS%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1690318177633!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <div class="box">
-        <h2> CONTACTO</h2>
+        <h2>CONTACTO</h2>
         <p> Tel: +54 11 4863 0705</p>
-        <p> Email: colegioultrefschool.adm@gmail.com</p>
+        <p> Email: colegiountrefschool.adm@gmail.com</p>
+      </div>
+        </div>
+        
+      </div>
+      
+      
+
+
+
+
+
+
+
     </div>
-    </div>
+
   </footer>
   </body>
 </html>
